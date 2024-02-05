@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+/* Add a black background color to the top navigation */
+.topNav, .listelement {
+  position: fixed;
+  top: 0;
+  margin-top: 0;
+  padding: .3px;
+  margin-left: -1%;
+  width: 105%;
+  height: auto;
+  z-index: 9999;
+  color: whitesmoke;
+  display: inline-flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-evenly;
+  font-size: 24px;
+  padding-top: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+  /* Style the links inside the navigation bar */
+.topNav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 10px;
+  padding-left: -1px;
+  text-decoration: none;
+  animation: glow 3s ease-in-out infinite alternate;
+  font-family: 'Special Elite', sans-serif;
+}
+  /* Change the color of links on hover */
+.topNav a:hover {
+  color: rgb(184, 156, 1);
+}
+  
+  /* Add a color to the active/current link */
+.topNav a.active {
+  background-color: #475962;
+  color: white;
+}
+
+video {
+  position: absolute;
+  opacity: .9;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  top: -5;
+}
+
+
+.overlay {
+  padding-top: 0%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Kalnia', serif;
+  object-fit: cover;
+  margin: 0;
+}
+
+.overlay h1 {
+  color: whitesmoke;
+  border-color: #475962;
+  mix-blend-mode: color-dodge;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+h1 {
+  width: 100%;
+  height: auto;
+  font-size: 100px;
+  object-fit: cover;
+  color: whitesmoke;
+  font-family: 'Whisper', cursive;
+  display:initial;
+  text-align: center;
+  text-wrap: nowrap;
+  justify-content: center;
+  animation: glow 3s ease-in-out infinite alternate;
+
+} 
