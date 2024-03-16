@@ -1,3 +1,6 @@
 # SandSProd-Website
+##A Film Production Site
 
-This is my webpage for a production company that is up and coming. The site is one of the first created ideas I've done and shows a unique way of designing certain things.
+
+This is my webpage for a new, award-winning production company. The idea was to hone into the love of film that the owners have, and reflect their growing success.
+
